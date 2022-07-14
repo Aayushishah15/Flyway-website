@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MajorProject.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+     <meta charset="utf-8">
+<meta charset="utf-8">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+    input[type="submit"] {
+
+    color: #000000;
+    background: #FFC107;
+    border: none;
+    font-size: 17px;
+    outline: none;
+  
+    letter-spacing: 1px;
+  
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+ 
+	input[type="submit"]:hover {
+    color: #fff;
+    background: #000;
+}
+
+
+     .nav-tabs li a 
+   {
+    color: yellow;
+   }
+    .navbar {
+   
+    margin-bottom: 0;
+    
+    border: 0;
+     background-color: rgba(0,0,0,0.5);
+ 
+  }
+  .navbar li a, .navbar .navbar-brand 
+  { 
+    color: white !important;
+  }
+  .navbar-nav li a:hover 
+  {
+    color: yellow !important;
+  }
+  .navbar-nav li.active a 
+  {
+    color: yellow !important;
+  
+  }
+  .dropdown-menu
+  {
+      background-color: rgba(0,0,0,0.5);
+  }
+   .dropdown-menu li a:hover
+  {
+      background-color: rgba(0,0,0,0.9);
+   
+  }
+  h4.header-w3ls {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+   color: #fff;
+    letter-spacing: 3px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+}
+  
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><h4 class="header-w3ls">
+		FLYWAY  <i class="fa fa-plane" aria-hidden="true"></i></h4> </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.aspx"><i class="fa fa-home" style="color:red"></i>&nbsp;  Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-plane" style="color:red"></i> &nbsp; Flights<span class="caret"></span></a>
+     
+        <ul class="dropdown-menu">
+          <li><a href="Oneway.aspx">One Way</a></li>
+          <li><a href="Roundtrip.aspx">Round Trip</a></li>
+          <li><a href="Multicity.aspx">Multi City</a></li>
+        </ul>
+      </li>
+      <li><a href="Hotel.aspx"><i class="fa fa-hotel" style="color:red"></i>&nbsp; Hotels</a></li>
+  
+      <li><a href="Wishlist.aspx"><i class="fa fa-heart" aria-hidden="true" style="color:red"></i>&nbsp; Wish List</a></li>  
+     
+     </ul>
+      <ul class="nav navbar-nav navbar-right">
+     
+                        <li class="nav-item">
+                            <a class="nav-link d-block" href="SignIn.aspx">
+                             <i class="fa fa-user-o" aria-hidden="true"></i>  <asp:Label ID="Label1" runat="server" Text=""></asp:Label>  <b>&nbsp;&nbsp;&nbsp; Logout &nbsp;  <i class="fa fa-sign-out" aria-hidden="true"></i></b>
+                            </a>
+                        </li>     
+    </ul>
+  </div>
+</nav>
+  
+ <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        
+        <div class="clear">
+        </div>
+    
+    <div class="footer">
+        
+    </div>
+   
+
+    </form>
+</body>
+</html>

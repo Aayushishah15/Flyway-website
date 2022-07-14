@@ -1,0 +1,14 @@
+E:\Visual Programs\MajorProject\MajorProject\bin\MajorProject.dll
+E:\Visual Programs\MajorProject\MajorProject\bin\MajorProject.pdb
+E:\Visual Programs\MajorProject\MajorProject\obj\Debug\MajorProject.dll
+E:\Visual Programs\MajorProject\MajorProject\obj\Debug\MajorProject.pdb
+E:\Visual Programs\MajorProject\MajorProject\obj\Debug\MajorProject.csprojResolveAssemblyReference.cache
+E:\Visual Programs\MajorProject\MajorProject\obj\Debug\RdlCompile.cache
+E:\Visual Programs\MajorProject\MajorProject\obj\Debug\RdlCompile.compiled
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\bin\MajorProject.dll
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\bin\MajorProject.pdb
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\obj\Debug\MajorProject.csprojResolveAssemblyReference.cache
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\obj\Debug\RdlCompile.cache
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\obj\Debug\RdlCompile.compiled
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\obj\Debug\MajorProject.dll
+C:\Users\aayus\Downloads\MajorProject\MajorProject\MajorProject\obj\Debug\MajorProject.pdb
